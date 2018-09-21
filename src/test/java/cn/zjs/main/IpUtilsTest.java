@@ -45,6 +45,11 @@ public class IpUtilsTest {
         IpUtils.ipv4TransToInt("a.168.5.1");
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testIpWithRegex3() {
+        IpUtils.ipv4TransToInt("182822.168.5.1");
+    }
+
     @Test
     public void testIpSegmentWithSpace2() {
         Assert.assertEquals(BigInteger.valueOf(2896692481L), IpUtils.ipv4TransToInt("172 . 168 .5 . 1"));

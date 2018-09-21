@@ -112,6 +112,6 @@ public class IpUtils {
     }
 
     public static void main(String[] args) {
-        System.out.println(ipv4TransToInt("17222.168.5.1"));
+        System.out.println(ipv4TransToInt("172.168.5.1"));
     }
 }
