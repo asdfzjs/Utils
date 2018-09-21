@@ -1,0 +1,13 @@
+project/project
+project/target
+target
+.idea
+.gradle
+.idea*
+.ivy2
+classpath
+tags
+*.class
+*.iml
+*.log
+*.jar
